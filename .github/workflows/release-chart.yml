@@ -30,4 +30,3 @@ jobs:
           CR_TOKEN: "${{ secrets.PATNAME }}"
         with:
           charts_dir: etc/kubernetes/helm
-          config: cr.yaml
