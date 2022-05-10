@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  enterprise-gateway:
+  - apiVersion: v1
+    created: "2022-05-10T10:59:36.0911046Z"
+    description: A helm chart to deploy Jupyter Enterprise Gateway
+    digest: 0d238bf7bce75dc406e58dff654d660f911dc4d75dd1fd6ba671ffb22402bbee
+    home: https://jupyter.org
+    icon: https://avatars1.githubusercontent.com/u/7388996?s=200&v=4
+    kubeVersion: '>=1.11.0-0'
+    name: enterprise-gateway
+    sources:
+    - https://github.com/jupyter-server/enterprise_gateway
+    urls:
+    - https://github.com/konstellation-io/enterprise_gateway/releases/download/enterprise-gateway-2.6.0/enterprise-gateway-2.6.0.tgz
+    version: 2.6.0
+generated: "2022-05-10T10:59:36.0911096Z"
